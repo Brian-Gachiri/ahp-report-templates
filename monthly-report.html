@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MABERA AHP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    h1, h2 {
+      color: #00929F;
+    }
+    .report-container {
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 900px;
+      background-color: #fff;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .table-of-contents {
+      padding: 10px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+    .table-of-contents  li {
+        margin-bottom: 10px;
+    }
+    li::marker {
+    font-weight: bold;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section-title {
+      color: #00929F;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background-color: #00929F;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f5efe6;
+    }
+    .toc-item {
+      margin-bottom: 10px;
+    }
+    .photos {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+    .photo-item {
+      width: 300px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="report-container">
+    <div style="display: flex; flex-direction: column; align-items: center; height: 30vh; justify-content: center;">
+        <img src="logo.png" style="width: 70px; height: 70px;">
+        <h1 style="margin-bottom: 10px; margin-top: 10px;">MABERA AHP MONTHLY REPORT</h1>
+        <h3 class="bold" style="margin-top: 5px;">Date: As At 03/11/2023</h3>
+    </div>
+
+    <!-- Table of Contents -->
+    <div class="table-of-contents" style="height: 70vh;">
+        <h2>Table of Contents</h2>
+        <ol>
+          <li>Contract Particulars</li>
+          <li>Tasks Undertaken in the Previous Month</li>
+          <li>Task Projection for the Current Month</li>
+          <li>Measures to be Implemented to Achieve Monthly Target Projections</li>
+          <li>Information Required</li>
+          <li>Contractors' Mobilization</li>
+          <li>Weather Record</li>
+          <li>Safety & Health Reports</li>
+          <li>Appendix 1 - Progress Photos</li>
+        </ol>
+      </div>
+
+    <!-- Contract Particulars -->
+    <div class="section">
+      <h2 class="section-title">1. Contract Particulars</h2>
+      <table>
+        <tr>
+          <th>Project Title</th>
+          <td>Construction of Housing Units and Associated works for Mabera, Kuria West Constituency, Migori County.</td>
+        </tr>
+        <tr>
+          <th>Employer</th>
+          <td>The Principal Secretary, Ministry of Lands, public works, housing and Urban development</td>
+        </tr>
+        <tr>
+          <th>Financier</th>
+          <td>National Government</td>
+        </tr>
+        <tr>
+          <th>Employer's Representative</th>
+          <td>Principal Secretary, State Department for Housing and Urban Development</td>
+        </tr>
+        <tr>
+          <th>Contractor</th>
+          <td>M/S Top Choice Surveillance Ltd, P.O BOX 1218-00618, Nairobi</td>
+        </tr>
+        <tr>
+          <th>Date of Award</th>
+          <td>25th July 2023</td>
+        </tr>
+        <tr>
+          <th>Contract Sum</th>
+          <td>Kshs 182,385,570.27</td>
+        </tr>
+        <tr>
+          <th>Revised Contract Sum</th>
+          <td>Nil</td>
+        </tr>
+        <tr>
+          <th>Performance Bond Expiry Date</th>
+          <td>27th August 2024</td>
+        </tr>
+        <tr>
+          <th>All Risk Insurance Expiry Date</th>
+          <td>29th August 2025</td>
+        </tr>
+        <tr>
+          <th>Date of Order to Commence</th>
+          <td>22nd September 2023</td>
+        </tr>
+        <tr>
+          <th>Commencement Date</th>
+          <td>6th October 2023</td>
+        </tr>
+        <tr>
+          <th>Original Contract Period</th>
+          <td>48 weeks</td>
+        </tr>
+        <tr>
+          <th>Original Date of Completion</th>
+          <td>6th September 2024</td>
+        </tr>
+        <tr>
+          <th>Time Elapsed</th>
+          <td>4 weeks</td>
+        </tr>
+        <tr>
+          <th>% of Contract Period Elapsed</th>
+          <td>8.33%</td>
+        </tr>
+        <tr>
+          <th>% of Works Done (Approx.)</th>
+          <td>5%</td>
+        </tr>
+        <tr>
+          <th>Amount Certified to Date</th>
+          <td>Nil</td>
+        </tr>
+        <tr>
+          <th>Amount Paid</th>
+          <td>Nil</td>
+        </tr>
+        <tr>
+          <th>% of Contract Certified</th>
+          <td>Nil</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Tasks Undertaken in the Previous Month -->
+    <div class="section">
+      <h2 class="section-title">2. Tasks Undertaken in the Previous Month</h2>
+        <table class="data-grid">
+        <thead>
+            <tr>
+            <th>Item</th>
+            <th>Task Name</th>
+            <th>Status</th>
+            <th>Comments</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>1</td>
+            <td>Excavation Work</td>
+            <td>Completed</td>
+            <td>No issues encountered</td>
+            </tr>
+            <tr>
+            <td>2</td>
+            <td>Foundation Preparation</td>
+            <td>In Progress</td>
+            <td>Delayed due to weather</td>
+            </tr>
+            <tr>
+            <td>3</td>
+            <td>Material Delivery</td>
+            <td>Pending</td>
+            <td>Expected delivery next week</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+
+    <!-- Task Projection for the Current Month -->
+    <div class="section">
+      <h2 class="section-title">3. Task Projection for the Current Month</h2>
+      <table class="data-grid">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Task Name</th>
+            <th>Expected Completion Date</th>
+            <th>Comments</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Casting for bases for the three blocks</td>
+            <td>2024-09-25</td>
+            <td>Complete foundation work</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Casting for substructure columns</td>
+            <td>2024-09-30</td>
+            <td>Start concrete pouring for the ground floor</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Substructure walling for the three blocks</td>
+            <td>2024-10-05</td>
+            <td>Ensure material delivery and stockpile</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Measures to Achieve Monthly Target -->
+    <div class="section">
+      <h2 class="section-title">4. Measures to Achieve Monthly Target Projections</h2>
+      <ul>
+        <li>Working during weekends.</li>
+        <li>Reduced Lag time for all activities in our work program, activities running simultaneously without any delays.</li>
+        <li>We will increase the number of work gangs and apply multiple shift whenever necessary to speed up the work.</li>
+        <li>Use of additional resources that is; plant, machinery and tools to ensure quality and quantity of works are achieved to the specifications.</li>
+        <li>Ensure that enough resources are provided on activities that are along the critical path to prevent any delays that may come along.</li>
+        <li>Applying of critical path scheduling with all activities indicated in our work program using minimum durations.</li>
+      </ul>
+    </div>
+
+    <!-- Information Required -->
+    <div class="section">
+      <h2 class="section-title">5. Information Required</h2>
+      <p>Outline any information or resources needed to proceed effectively.</p>
+    </div>
+
+    <!-- Contractors' Mobilization -->
+    <div class="section">
+      <h2 class="section-title">6. Contractors' Mobilization</h2>
+      <h4>Personell And Labour</h4>
+        <table class="data-grid">
+        <thead>
+            <tr>
+            <th>Contractors Senior Staff</th>
+            <th>Required</th>
+            <th>Provided</th>
+            <th>Deficit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Project Manager</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            </tr>
+            <tr>
+            <td>Assistant Quantity Surveyor</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            </tr>
+            <tr>
+            <td>Site Agent</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            </tr>
+            <tr>
+            <td>Safety Officer</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            </tr>
+            <tr>
+            <td>Foremen</td>
+            <td>1</td>
+            <td>1</td>
+            <td>0</td>
+            </tr>
+        </tbody>
+        </table>
+
+        <h4>Contractors Mobilization of Plant and Equipment</h4>
+        <table class="data-grid">
+            <thead>
+              <tr>
+                <th>Plant/Equipment</th>
+                <th>Required</th>
+                <th>Provided</th>
+                <th>Deficit</th>
+                <th>Remarks</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Concrete mixer – .5 m3</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Concrete vibrator</td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Poker</td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Bar bending machine</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Grinder</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Circular saw</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td></td>
+              </tr>
+            </tbody>
+        </table>
+
+        <h4>Material delivered on site</h4>
+        <table class="data-grid">
+            <thead>
+              <tr>
+                <th>S/NO</th>
+                <th>Details</th>
+                <th>Units</th>
+                <th>Quantity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Cement</td>
+                <td>Bags</td>
+                <td>300</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Sand</td>
+                <td>Ton</td>
+                <td>64</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Ballast</td>
+                <td>Ton</td>
+                <td>72</td>
+              </tr>
+            </tbody>
+          </table>
+
+    </div>
+
+    <!-- Weather Record -->
+    <div class="section">
+      <h2 class="section-title">7. Weather Record</h2>
+      <table>
+        <tr>
+          <th>Date</th>
+          <th>Morning</th>
+          <th>Afternoon</th>
+        </tr>
+        <tr>
+          <td>01-01-2024</td>
+          <td>Sunny / Rainy</td>
+          <td>Sunny / Rainy</td>
+        </tr>
+        <tr>
+          <td>02-01-2024</td>
+          <td>Cloudy / Sunny</td>
+          <td>Cloudy / Sunny</td>
+        </tr>
+        <tr>
+          <td>03-01-2024</td>
+          <td>Rainy / Cloudy</td>
+          <td>Rainy / Cloudy</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Safety & Health Reports -->
+    <div class="section">
+      <h2 class="section-title">8. Safety & Health Reports</h2>
+      <p>Provide a summary of safety and health reports for the month, including any incidents, risks identified, and corrective actions.</p>
+    </div>
+
+    <!-- Appendix 1: Progress Photos -->
+    <div class="section">
+      <h2 class="section-title">9. Appendix 1 - Progress Photos</h2>
+      <div class="photos">
+        <img src="image1.png" class="photo-item">
+        <img src="image2.png" class="photo-item">
+      </div>
+    </div>
+
+    <hr>
+    <div class="section">
+        <p><strong>Report Compiled By:</strong> James Maina</p>
+        <p><strong>Project Manager:</strong> Top Choice Surveillance Ltd.</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Construction Report</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+    }
+    .report-container {
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 6px;
+      max-width: 800px;
+      background-color: #f9f9f9;
+      border: 2px solid #00929F;
+    }
+    .header {
+      background-color: #00929F;
+      color: white;
+      padding: 10px;
+      border-radius: 6px;
+      text-align: center;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section-title {
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: #00929F;
+    }
+    .content-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    .content-table th, .content-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    .content-table th {
+      background-color: #00929F;
+      color: white;
+    }
+    .content-table tr:nth-child(even) {
+      background-color: #f5efe6;
+    }
+    .weather-grouping {
+      background-color: #f5efe6;
+      border: 1px solid #f1fbfc;
+      padding: 10px;
+      border-radius: 6px;
+    }
+    .photos {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+    .photo-item {
+      width: 300px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="report-container">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <img src="logo.png" style="width: 70px; height: 70px;">
+      <h1 style="color:#00929F;">Weekly Report</h1>
+  </div>
+    <div class="header">
+      <h2>AHP Machakos Township</h2>
+      <p>Week Starting: 01-01-2024 | Week Ending: 07-01-2024</p>
+      <p>Project Duration: 8 Weeks | Project Week No.: 3</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Key Events</h2>
+      <ul>
+        <li>Concrete pouring</li>
+        <li>Electrical wiring installation</li>
+        <li>Inspection conducted</li>
+    </ul>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Daily Progress</h2>
+      <table class="content-table">
+        <tr>
+          <th>Date</th>
+          <th>Weather (Morning/Afternoon)</th>
+          <th>Work Done</th>
+          <th>Progress (%)</th>
+        </tr>
+        <tr>
+          <td>01-01-2024</td>
+          <td>Sunny / Rainy</td>
+          <td>Excavation of foundation</td>
+          <td>10%</td>
+        </tr>
+        <tr>
+          <td>02-01-2024</td>
+          <td>Cloudy / Sunny</td>
+          <td>Steel reinforcement</td>
+          <td>15%</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Contractors and Work Categories</h2>
+      <table class="content-table">
+        <tr>
+          <th>Contractor</th>
+          <th>Work Done</th>
+          <th>Number of Workers (Male/Female)</th>
+          <th>Materials Used</th>
+        </tr>
+        <tr>
+          <td>Main Contractor</td>
+          <td>Excavation</td>
+          <td>20/30</td>
+          <td>Iron Sheet</td>
+        </tr>
+        <tr>
+          <td>Electrical Contractor</td>
+          <td>Wiring</td>
+          <td>15/10</td>
+          <td>Cables</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Equipment and Machinery</h2>
+      <table class="content-table">
+        <tr>
+          <th>Equipment</th>
+          <th>Quantity</th>
+          <th>Condition</th>
+          <th>Serial No.</th>
+        </tr>
+        <tr>
+          <td>Excavator</td>
+          <td>2</td>
+          <td>Good</td>
+          <td>123456</td>
+        </tr>
+        <tr>
+          <td>Roller</td>
+          <td>1</td>
+          <td>Good</td>
+          <td>654321</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Weekly Weather Summary</h2>
+      <div class="weather-grouping">
+        <p><strong>Monday:</strong> Sunny / Rainy</p>
+        <p><strong>Tuesday:</strong> Cloudy / Sunny</p>
+        <p><strong>Wednesday:</strong> Rainy / Cloudy</p>
+        <!-- Add rest of the days -->
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Progress Photos</h2>
+      <div class="photos">
+        <img src="image1.png" class="photo-item">
+        <img src="image2.png" class="photo-item">
+      </img>
+    </div>
+
+  </div>
+</body>
+</html>

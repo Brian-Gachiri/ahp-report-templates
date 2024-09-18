@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 6px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-left: 8px solid #00929F;
+        }
+        .text-primary {
+            color: #00929F;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #00929F;
+            color: #fff;
+        }
+        .contractor-category {
+            background-color: #f0f7f7;
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+        .contractor-category h3 {
+            margin-top: 0;
+        }
+        .rounded-border {
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            padding: 15px;
+        }
+        .light-card {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .photos {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+    .photo-item {
+      width: 300px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Report Header -->
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <img src="logo.png" style="width: 70px; height: 70px;">
+        <h1 class="text-primary text-center" style="margin-bottom: 10px; margin-top: 10px;">Daily Report</h1>
+        <h3 class="text-center bold" style="margin-top: 5px;">AHP Machakos Township</h3>
+    </div>
+
+    <!-- Weather Information -->
+    <div class="section">
+        <h3 class="text-primary">Weather Information</h3>
+        <p><strong>Morning:</strong> Sunny</p>
+        <p><strong>Afternoon:</strong> Rainy</p>
+        <p><strong>Comments:</strong> Heavy rainfall</p>
+    </div>
+
+    <!-- Timing and Progress -->
+    <div class="section">
+        <h3 class="text-primary">Work Timing & Progress</h3>
+        <p><strong>Start Time:</strong> 08:00 AM</p>
+        <p><strong>Closing Time:</strong> 05:00 PM</p>
+        <p><strong>Average Progress Status:</strong> 30%</p>
+    </div>
+
+    <!-- Contractors and Work -->
+    <div class="section">
+        <h3 class="text-center text-primary">Category of Work</h3>
+        <!-- Example contractor section -->
+        <div class="contractor-category rounded-border">
+            <h4>Main Contractor</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Job Type</th>
+                        <th>Quantity</th>
+                        <th>Male</th>
+                        <th>Female</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Skilled Worker</td>
+                        <td>1</td>
+                        <td>20</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>Casual Worker</td>
+                        <td>1</td>
+                        <td>20</td>
+                        <td>30</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div>
+
+        <!-- More contractor categories as needed -->
+    </div>
+
+    <div class="section light-card">
+        <h3 class="text-center text-primary">Materials Used</h3>
+        <table class="data-grid">
+            <thead>
+              <tr>
+                <th>S/NO</th>
+                <th>Details</th>
+                <th>Units</th>
+                <th>Quantity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Cement</td>
+                <td>Bags</td>
+                <td>300</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Sand</td>
+                <td>Ton</td>
+                <td>64</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Ballast</td>
+                <td>Ton</td>
+                <td>72</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+    <!-- Equipment and Machinery -->
+    <div class="section light-card">
+        <h3 class="text-center text-primary">Equipment and Machinery on Site</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Condition</th>
+                    <th>Serial Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Excavator</td>
+                    <td>2</td>
+                    <td>Good</td>
+                    <td>123456</td>
+                </tr>
+                <tr>
+                    <td>Roller</td>
+                    <td>2</td>
+                    <td>Good</td>
+                    <td>123456</td>
+                </tr>
+                <tr>
+                    <td>Water Bowser</td>
+                    <td>2</td>
+                    <td>Good</td>
+                    <td>123456</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section light-card">
+        <h3 class="text-center text-primary">Visitors</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Title</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>James Maina</td>
+                    <td>Architect</td>
+                </tr>
+                <tr>
+                    <td>Peter Kuria</td>
+                    <td>Engineer</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Comments and Other Information -->
+    <div class="section light-card">
+        <h3 class="text-primary">Additional Information</h3>
+        <p><strong>Drawing Issued:</strong> Yes</p>
+        <p><strong>Site Instruction Issued:</strong> No</p>
+        <p><strong>Stoppage of Work:</strong> None</p>
+        <p><strong>Accidents:</strong> None</p>
+        <p><strong>Challenges:</strong> N/A</p>
+        <p><strong>Comments:</strong> Heavy rainfall impacted progress.</p>
+    </div>
+
+    <div class="section">
+        <p><strong>Report Created By:</strong> James Maina</p>
+    </div>
+
+    <div class="section">
+        <h3 class="text-primary">Progress Photos</h3>
+        <div class="photos">
+          <img src="image1.png" class="photo-item">
+          <img src="image2.png" class="photo-item">
+        </img>
+      </div>
+
+    
+</div>
+
+</body>
+</html>
